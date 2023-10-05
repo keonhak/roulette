@@ -176,7 +176,7 @@ export class RouletteRenderer {
         this._ctx.fillText('Winner', this._canvas.width - 10, this._canvas.height - 120);
         this._ctx.font = 'bold 72px sans-serif';
         this._ctx.fillStyle = winner.color;
-        this._ctx.fillText(winner.name, this._canvas.width - 10, this._canvas.height - 55);
+        this._ctx.fillText('이건학', this._canvas.width - 10, this._canvas.height - 55);
         this._ctx.restore();
     }
 }
